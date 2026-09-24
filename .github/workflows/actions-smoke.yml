@@ -1,0 +1,12 @@
+name: Actions Smoke
+on:
+  push:
+    branches: [main]
+    paths: [".actions-smoke"]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo actions-ok
