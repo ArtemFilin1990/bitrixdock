@@ -1,0 +1,1 @@
+Temporary deployment source for the EVEREST Bitrix24 MCP server. No credentials are stored here.
